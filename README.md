@@ -41,15 +41,17 @@ ChildGuard is organized into three subsets:
 * `Hate`: Binary indicator (1 = Hate; 0 = Non-Hate).
 * `Age_Group`: Age category for contextual analysis (Teens, Pre-Teens, Younger Children).
 
-## Usage
+## Usage and Download
 
-Download the subset(s) you need from the repository:
+As we have used github lfs, large files will be downloaded as .txt just change the extension from .txt to .csv while downloading
 
 1. **`lexical_childhate.csv`** (157,280 rows)
 2. **`contextual_childhate.csv`** (194,597 rows)
 3. **`childguard_dataset.csv`** (351,877 rows)
 
-Each file includes the columns described above. Use the lexical subset for vocabulary or sentiment studies, the contextual subset for age-aware modeling, and the full corpus for comprehensive experiments.
+After downloading these files, rename their extensions to `.csv` for proper CSV handling:
+
+Each CSV includes the columns described below and can be loaded directly into your analysis environment. Use the lexical subset for vocabulary or sentiment studies, the contextual subset for age-aware modeling, and the full corpus for comprehensive experiments.
 
 ## Baseline Models and Source URLs
 
@@ -102,7 +104,6 @@ We evaluated nine models—SVM, LSTM, CNN, BERT, RoBERTa, GPT-3.5-turbo, GPT-4o,
 |            | CNN           |   51.0%  |   50.5%   |  50.0% | 50.2 |
 
 
-
 **Table 2: Age-group performance on the Full ChildGuard dataset**
 
 | Age Group         | Model         | Accuracy | Precision | Recall |  F1  |
@@ -134,4 +135,5 @@ We evaluated nine models—SVM, LSTM, CNN, BERT, RoBERTa, GPT-3.5-turbo, GPT-4o,
 |                   | LSTM          |   55.9%  |   55.1%   |  54.4% | 54.7 |
 |                   | SVM           |   54.6%  |   54.0%   |  53.2% | 53.6 |
 |                   | CNN           |   54.0%  |   53.3%   |  52.7% | 53.0 |
+
 
