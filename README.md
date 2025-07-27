@@ -101,7 +101,7 @@ We evaluated nine models—SVM, LSTM, CNN, BERT, RoBERTa, GPT-3.5-turbo, GPT-4o,
 |            | SVM           |   52.0%  |   51.6%   |  51.3% | 51.5 |
 |            | CNN           |   51.0%  |   50.5%   |  50.0% | 50.2 |
 
-*Values sourced from Table 6 of the paper.*
+
 
 **Table 2: Age-group performance on the Full ChildGuard dataset**
 
@@ -135,4 +135,3 @@ We evaluated nine models—SVM, LSTM, CNN, BERT, RoBERTa, GPT-3.5-turbo, GPT-4o,
 |                   | SVM           |   54.6%  |   54.0%   |  53.2% | 53.6 |
 |                   | CNN           |   54.0%  |   53.3%   |  52.7% | 53.0 |
 
-*Values sourced from Table 7 of the paper.*
